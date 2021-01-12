@@ -397,6 +397,12 @@ body {
   margin-left: 12px;
   margin-top: 37px;
   color: var(--white-color);
+  cursor: pointer;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon-send {
   margin-left: 10px;
