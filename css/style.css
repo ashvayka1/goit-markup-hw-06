@@ -615,6 +615,8 @@ body {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-clients-link:hover,
@@ -623,6 +625,9 @@ body {
   outline: none;
 }
 
+.our-client-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .our-clients-link:hover .our-client-icon,
 .our-clients-link:focus .our-client-icon {
   fill: var(--accent-color);
